@@ -1,7 +1,8 @@
 mkdir app
 python3 -m venv .venv
 vi /etc/systemd/system/flaskapp.service
-
+systemctl daemon-reload
+systemctl enable flaskapp.service
 
 [Unit]
 Description=flask app
