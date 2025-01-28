@@ -25,5 +25,8 @@ WantedBy=multi-user.target
 
 sudo vi flaskapp.service
 sudo systemctl daemon-reload
+curl http://10.200.1.141:5000
+curl http://127.0.0.1:5000
+
 sudo systemctl enable flaskapp.service
 sudo systemctl start flaskapp.service
