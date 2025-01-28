@@ -1,5 +1,6 @@
 mkdir app
-python3 -m venv .venv
+python3 -m venv venv
+source venv/bin/activate
 vi /etc/systemd/system/flaskapp.service
 systemctl daemon-reload
 systemctl enable flaskapp.service
