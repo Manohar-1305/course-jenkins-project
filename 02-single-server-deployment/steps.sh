@@ -1,5 +1,6 @@
 mkdir app
 python3 -m venv .venv
+vi /etc/systemd/system/flaskapp.service
 
 
 [Unit]
